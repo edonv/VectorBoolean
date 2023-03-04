@@ -24,9 +24,12 @@ import UIKit
 let FBDebugPointSize = CGFloat(10.0)
 let FBDebugSmallPointSize = CGFloat(3.0)
 
+import SwiftUI
 
 public extension UIBezierPath {
-    
+    public convenience init(_ path: Path) {
+        self.init(cgPath: path.cgPath)
+    }
     
     // 57
     //- (void) fb_copyAttributesFrom:(NSBezierPath *)path
