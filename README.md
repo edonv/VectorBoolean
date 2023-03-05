@@ -1,6 +1,9 @@
 Swift VectorBoolean for iOS
 ===========================
 
+## *Disclaimer!!*
+This was meant as a way to update the original package to a Swift Package and add compatability with `NSBezierPath` and `SwiftUI`'s `Path`. As of now, this works, but with bugs (it seems). I've decided not to spend more time on this, as Swift has added boolean functions to [CGPath](https://developer.apple.com/documentation/coregraphics/cgpath) [here](https://developer.apple.com/documentation/coregraphics/cgpath#2874290) for iOS 16+/macOS 13+. Feel free to use or fork if you'd like.
+
 ### ✻ Updated for Xcode 9 and Swift 3.2
 
 ### Notes
